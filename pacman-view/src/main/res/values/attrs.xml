@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="PacmanView">
+        <attr name="pacman_color" format="color"/>
+        <attr name="pacman_speed" format="float"/>
+        <attr name="circles_color" format="color"/>
+        <attr name="circles_count" format="integer"/>
+        <attr name="circles_speed" format="float"/>
+        <attr name="circles_random_color" format="boolean"/>
+    </declare-styleable>
+</resources>

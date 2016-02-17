@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <pro.appus.pacmanview.PacmanView
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        app:pacman_color="@color/lightGreen"
+        app:pacman_speed="2"
+        app:circles_count="3"
+        app:circles_color="@color/pink"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <pro.appus.pacmanview.PacmanView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            app:pacman_color="#452"
+            app:pacman_speed="7"
+            app:circles_count="10"
+            app:circles_color="#888"/>
+
+        <pro.appus.pacmanview.PacmanView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            app:pacman_color="@color/violet"
+            app:pacman_speed="7"
+            app:circles_count="4"
+            app:circles_color="@color/yellow"/>
+
+    </LinearLayout>
+
+    <pro.appus.pacmanview.PacmanView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:rotation="180"
+        app:pacman_color="@color/cyan"
+        app:pacman_speed="9"
+        app:circles_count="8"
+        app:circles_color="@color/orange"
+        app:circles_speed="5"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <pro.appus.pacmanview.PacmanView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:rotation="315"
+            android:layout_centerVertical="true"
+            app:pacman_color="@color/violet"
+            app:pacman_speed="18"
+            app:circles_count="8"
+            app:circles_speed="10"
+            app:circles_random_color="true"/>
+
+        <pro.appus.pacmanview.PacmanView
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:rotation="225"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            app:pacman_color="#256"
+            app:pacman_speed="18"
+            app:circles_count="8"
+            app:circles_color="#344"
+            app:circles_speed="10"
+            app:circles_random_color="true"/>
+
+        <!--<pro.appus.pacmanview.PacmanView-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="70dp"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--app:pacman_color="@color/violet_dark"-->
+            <!--app:pacman_speed="10"-->
+            <!--app:circles_count="5"-->
+            <!--app:circles_color="@color/violet"-->
+            <!--app:circles_speed="3.4"/>-->
+
+    </RelativeLayout>
+
+</LinearLayout>
