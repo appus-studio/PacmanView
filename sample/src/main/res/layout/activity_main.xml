@@ -37,7 +37,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginLeft="10dp"
             app:pacman_color="@color/violet"
-            app:pacman_speed="7"
+            app:pacman_speed="8"
             app:circles_count="4"
             app:circles_color="@color/yellow"/>
 
@@ -68,7 +68,7 @@
             app:pacman_color="@color/violet"
             app:pacman_speed="18"
             app:circles_count="8"
-            app:circles_speed="10"
+            app:circles_speed="9"
             app:circles_random_color="true"/>
 
         <pro.appus.pacmanview.PacmanView
@@ -82,7 +82,7 @@
             app:pacman_speed="18"
             app:circles_count="8"
             app:circles_color="#344"
-            app:circles_speed="10"
+            app:circles_speed="9"
             app:circles_random_color="true"/>
 
         <!--<pro.appus.pacmanview.PacmanView-->
