@@ -19,10 +19,33 @@ PacmanView is a small library that allows you to add Pacman to your app. For exa
 
 # Demo
 
-Just add view into your layout's .xml.
+![](https://github.com/alexey-kubas-appus/PacmanView/blob/master/images/main.gif)
+
+![](https://github.com/alexey-kubas-appus/PacmanView/blob/master/images/customized.gif)
 
 # Getting Started
 
+##Setup:
+
+   Just add dependence to main build.gradle:
+
+        dependencies {
+                compile 'pro.appus:pacman-view:1.0.0'
+        }
+   
+##Usage example:
+
+   Just add view into your layout's .xml.
+   
+        <pro.appus.pacmanview.PacmanView
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            app:pacman_color="@color/violet_dark"
+            app:pacman_speed="10"
+            app:circles_count="5"
+            app:circles_color="@color/violet"
+            app:circles_speed="3.4"/>
 
 # Info
 
