@@ -12,7 +12,7 @@ PacmanView is a small library that allows you to add Pacman to your app. For exa
 
 * pacman_color - Pacman color
 * pacman_speed - Pacman animation speed
-* circles_count - Pacman color
+* circles_count - circles count
 * circles_color - circles color
 * circles_random_color - true/false. If true - circles_color will be ignored
 * circles_speed - circles speed
@@ -40,7 +40,6 @@ PacmanView is a small library that allows you to add Pacman to your app. For exa
         <pro.appus.pacmanview.PacmanView
             android:layout_width="250dp"
             android:layout_height="70dp"
-            android:layout_centerInParent="true"
             app:pacman_color="@color/violet_dark"
             app:pacman_speed="10"
             app:circles_count="5"
