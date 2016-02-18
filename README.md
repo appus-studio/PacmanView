@@ -5,7 +5,7 @@ PacmanView is a small library that allows you to add Pacman to your app. For exa
 
 * [Customization](#Customization)
 * [Demo](#Demo)
-* [Getting Started](#Getting-Started)
+* [Getting Started](#getting-started)
 * [Info](#Info)
 
 # Customization
