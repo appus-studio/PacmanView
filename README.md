@@ -3,10 +3,10 @@ Made in [![Appus Studio](https://github.com/alexey-kubas-appus/PacmanView/blob/m
 
 PacmanView is a small library that allows you to add Pacman to your app. For example you can use it instead of ProgressBar.
 
-* [Customization](#Customization)
-* [Demo](#Demo)
+* [Customization](#customization)
+* [Demo](#demo)
 * [Getting Started](#getting-started)
-* [Info](#Info)
+* [Info](#info)
 
 # Customization
 
