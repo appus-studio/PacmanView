@@ -50,7 +50,7 @@ PacmanView is a small library that allows you to add Pacman to your app. For exa
 
 ## Developed By
 
-Ostapenko Yuriy, [Appus Studio](https://appus.software)]
+Ostapenko Yuriy, [Appus Studio](https://appus.software)
 
 ## License
 
